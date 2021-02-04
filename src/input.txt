@@ -1,0 +1,187 @@
+public class Main {
+  public int myFunction(int x) {
+  	int add = y + 50 ++ 1; //syntax error #1
+
+  	return int; //syntax error #2
+  }
+
+  public float myFunctionFloat(float x) {
+  	float fTest = (x * 50) + (x * 15)); //syntax error #3
+
+  	return fTest * 50 (); //syntax error #4
+  }
+
+  public static void main(String args[]) {
+  	myFunction(50);
+  	myFunctionFloat(50.0f);
+  }
+
+}
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////
+
+public class Main {
+  public void testOne()
+  {
+    int x=0;
+    Scanner myObj = new Scanner (System.in);
+    System.out.println("Hello. I need your number:");
+    String input = myObj.nextLine();
+    x= Integer.parseInt(input);
+    for(int i; i <10; i++){ //syntax error #1
+
+    System.out.println("Petmalu " +x+); //syntax error #2
+
+        //syntax error #3
+  }
+
+  public void testTwo (float x){
+   if (x=4) //syntax error #4
+   {
+    System.out.println ( x is a very huge number); //syntax error #5
+   }
+  }
+
+  public int myFunction(int x) {
+  	int add = y + 50 ++ 1; //syntax error #1
+
+  	return int; //syntax error #2
+  }
+
+  public static void main(String args[]) {
+  	float value = (5 * 1) + (5 * 5 / 1 + 3 + (4 + (5 * 3)))/2.0f * 8.0f;
+  	testOne()(x); //syntax error #6
+    testTwo(123 ++value); //syntax error #7
+  }
+
+}
+
+
+//JavaTest
+public class Main {
+  private static int mynum;
+  private static Temp myClass;
+  public class Temp{
+  }
+  public int sq(int i, int z){
+    return 5;
+  }
+
+  public static void main(String args[]) {
+  	int[] x = new int[5];
+  	int a = 5;
+  	a = 10 + 3;
+  	a++;
+  	x[1] = 5;
+  	print("s"+x);
+  	scan("temp",a);
+  	sq(a,3);
+  	if(a<6) {
+  	    if(True){}
+  	}
+  	if(a>6) {
+  	    if(True){
+  	        if(True){}
+  	    }
+  	    sq();
+  	}
+  	else{}
+  	while(True){
+  	    while(True){}
+  	}
+  	for(int i=0;i<5;i++){i=6;}
+  }
+
+}
+
+public class Main {
+
+  public static void main(String args[]) {
+  	int a = 5;
+  	a = 10 + 3;
+  	scan("temp",a);
+  	print(a);
+  	print("Hello World");
+  }
+
+}
+
+public class Main {
+
+  public static void main(String args[]) {
+  	int[] x = new int[5];
+  	int a = 5;
+  	a = 10 + 3;
+  	a++;
+  	x[0]=12;
+  	print(a);
+
+  	print(x[0]);
+  	if(a<20) {
+  	    print("Hello world");
+  	}
+  	for(int i=0;i<5;i++) {
+  		if(i<3) {
+  			print(a);
+  		}
+  	}
+  }
+
+}
+
+
+//Baraco Test
+class Main :
+  int sq(int i, int z):
+    return 5;
+  end
+
+  void main() :
+  	int[] x = new int[5];
+  	int a = 5;
+  	a = 10;
+  	x[1] = 3;
+  	print(3+a+9);
+  	sq(a,3);
+  end
+
+end
+
+
+//myJava Test
+class Main {
+  int sq(int i, int z){
+    return 5;
+  }
+
+  void main() {
+  	int[] x = new int[5];
+  	int a = 5;
+  	a = 10;
+  	x[1] = 3;
+  	print(3+a+9);
+  	sq(a,3);
+  	if(a<6) {
+        if(True){}
+    }
+    if(a>6) {
+        if(True){
+            if(True){}
+        }
+        sq();
+    }
+    else{}
+    while(True){
+        while(True){}
+    }
+    for(int i=0;i<5;i++){i=6;}
+  }
+
+}
